@@ -1,6 +1,7 @@
 const button = document.querySelector("button")
-let output = document.querySelector("output")
+const output = document.querySelector("output")
+const input = document.querySelector("input")
 
 button.addEventListener("click", () => {
-const input = document.querySelector("input").value
-    output.textContent = input} )
+    output.textContent = input.value
+})
